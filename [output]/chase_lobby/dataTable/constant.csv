@@ -1,0 +1,5 @@
+ID,Value,Comment
+TYPE,int,string
+MAX_VALUE1,50,comment
+MAX_VALUE2,80,comment
+MAX_VALUE3,15,comment

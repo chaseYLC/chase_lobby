@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<config>
+	<logger>
+		<set>
+      <channel>default</channel>
+			<file>Lobby_TestClient</file>
+			<dir>d:/log/lobbyTestClient</dir>
+      <useLogConsole>true</useLogConsole>
+      <useLogFile>true</useLogFile>
+      <useLogTrace>true</useLogTrace>
+      <useLogUDP>true</useLogUDP>
+			<rotate>2</rotate>
+			<rotate_size>0</rotate_size>
+			<level>0</level>
+		</set>
+	</logger>
+
+	<version>
+	</version>
+	
+	<connector>
+		<login>
+    <addr>127.0.0.1</addr>
+      <port>9788</port>
+      <enc_type>0</enc_type>
+		</login>
+	</connector>
+	
+	<!-- dev_options are only for developers. please erase this statement if this is productive versions -->
+	<dev_options>
+		<watchdog_port>40000</watchdog_port>
+	</dev_options>
+	
+</config>

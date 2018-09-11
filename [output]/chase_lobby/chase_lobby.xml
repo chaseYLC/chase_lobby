@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<config>
+  <title>chase_totalSvr</title>
+  <servers>
+    <broker>
+      <activate>true</activate>
+      <addr>127.0.0.1</addr>
+      <listenPort>39000</listenPort>
+      <session_timeout_ms>6000</session_timeout_ms>
+      <enc_type>0</enc_type>
+      <workers>1</workers>
+      <keep_alive_ms>0</keep_alive_ms>
+      <tick_time_ms>1000</tick_time_ms>
+    </broker>
+    <lobby>
+      <activate>true</activate>
+      <addr>127.0.0.1</addr>
+      <listenPort>9788</listenPort>
+      <session_timeout_ms>6000</session_timeout_ms>
+      <enc_type>0</enc_type>
+      <workers>1</workers>
+      <keep_alive_ms>0</keep_alive_ms>
+      <tick_time_ms>1000</tick_time_ms>
+    </lobby>
+    <room>
+      <activate>true</activate>
+      <addr>127.0.0.1</addr>
+      <listenPort>39000</listenPort>
+      <session_timeout_ms>6000</session_timeout_ms>
+      <enc_type>0</enc_type>
+      <workers>1</workers>
+      <keep_alive_ms>0</keep_alive_ms>
+      <tick_time_ms>1000</tick_time_ms>
+    </room>
+  </servers>
+  <test_interface>
+    <listenPort>30000</listenPort>
+  </test_interface>
+
+  <logger>
+    <set>
+      <channel>default</channel>
+      <file>chase_totalSvr</file>
+      <dir>d:/log/chase_totalSvr</dir>
+      <useLogConsole>true</useLogConsole>
+      <useLogFile>true</useLogFile>
+      <useLogTrace>false</useLogTrace>
+      <useLogUDP>false</useLogUDP>
+      <rotate>2</rotate>
+      <rotate_size>0</rotate_size>
+      <level>0</level>
+    </set>
+  </logger>
+
+  <db>
+    <mssql>
+      <odbc>mln_mssql</odbc>
+      <addr>127.0.0.1:1433</addr>
+      <uid>sa</uid>
+      <upw>tns0407</upw>
+    </mssql>
+  </db>
+
+  <misc>
+    <clientVersion>1</clientVersion>
+  </misc>
+	
+</config>
