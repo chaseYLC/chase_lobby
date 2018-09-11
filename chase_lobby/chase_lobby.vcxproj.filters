@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="global">
+      <UniqueIdentifier>{77ba462f-9f97-445a-a5d0-02d5bb20f518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{33efafad-566f-4587-8f06-3ae74fbbf56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contents">
+      <UniqueIdentifier>{5b53b48f-a5f3-4d9a-84d1-7d9d0cf73b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contents\user">
+      <UniqueIdentifier>{b90f6d3e-c008-4702-afc4-d1f11f09e79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_acceptor">
+      <UniqueIdentifier>{4695fe8a-5586-4d22-b6c1-e387a693eb26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_interface">
+      <UniqueIdentifier>{6fb0a7b1-711a-4e86-a0b9-1777dfe8369b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_config">
+      <UniqueIdentifier>{39756599-e1f2-4580-b343-702952ea0613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{798a551c-ed83-4c9f-9e5e-9fd5e19da0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contents\user\Basis">
+      <UniqueIdentifier>{90bbb088-58e6-4d17-83f3-21b367345b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_handler">
+      <UniqueIdentifier>{9a8eabe9-7e8a-49c6-ae3c-b9df839d8258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net_connector">
+      <UniqueIdentifier>{2a17a5b7-db63-45c9-a501-9e91ac2f1ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contents\tableData">
+      <UniqueIdentifier>{569bc535-9571-49b5-9595-ba3d6cffd7da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{196084e8-beb8-4920-a7c4-8b9861dc0768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{7b8d1233-bf88-49c5-b829-c83d24c56b27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="keyEventHandler.cpp">
+      <Filter>test_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="watchDogHandler.cpp">
+      <Filter>test_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="userBasis.cpp">
+      <Filter>contents\user\Basis</Filter>
+    </ClCompile>
+    <ClCompile Include="userManagerBasis.cpp">
+      <Filter>contents\user\Basis</Filter>
+    </ClCompile>
+    <ClCompile Include="lobbyAcceptorReceiver.cpp">
+      <Filter>net_acceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="packetParserJson.cpp">
+      <Filter>net_acceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="brokerConnector.cpp">
+      <Filter>net_connector</Filter>
+    </ClCompile>
+    <ClCompile Include="connectorUser.cpp">
+      <Filter>net_connector</Filter>
+    </ClCompile>
+    <ClCompile Include="connectorHandler.cpp">
+      <Filter>net_connector</Filter>
+    </ClCompile>
+    <ClCompile Include="nh_chat.cpp">
+      <Filter>net_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="dataTable.cpp">
+      <Filter>contents\tableData</Filter>
+    </ClCompile>
+    <ClCompile Include="GZipCodec.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="brokerAcceptorReceiver.cpp">
+      <Filter>net_acceptor</Filter>
+    </ClCompile>
+    <ClCompile Include="lobbyUser.cpp">
+      <Filter>contents\user</Filter>
+    </ClCompile>
+    <ClCompile Include="MLN_Utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="lobbyUserManager.cpp">
+      <Filter>contents\user</Filter>
+    </ClCompile>
+    <ClCompile Include="nh_lobby.cpp">
+      <Filter>net_handler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="keyEventHandler.h">
+      <Filter>test_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="watchDogHandler.h">
+      <Filter>test_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include="userBasis.h">
+      <Filter>contents\user\Basis</Filter>
+    </ClInclude>
+    <ClInclude Include="userManagerBasis.h">
+      <Filter>contents\user\Basis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[include]\lobby_protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="lobbyAcceptorReceiver.h">
+      <Filter>net_acceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="packetParserJson.h">
+      <Filter>net_acceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="connectorIndex.h">
+      <Filter>net_connector</Filter>
+    </ClInclude>
+    <ClInclude Include="brokerConnector.h">
+      <Filter>net_connector</Filter>
+    </ClInclude>
+    <ClInclude Include="connectorUser.h">
+      <Filter>net_connector</Filter>
+    </ClInclude>
+    <ClInclude Include="nh_chat.h">
+      <Filter>net_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="dataTable.h">
+      <Filter>contents\tableData</Filter>
+    </ClInclude>
+    <ClInclude Include="connectorHandler.h">
+      <Filter>net_connector</Filter>
+    </ClInclude>
+    <ClInclude Include="GZipCodec.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="brokerAcceptorReceiver.h">
+      <Filter>net_acceptor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[include]\broker_protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="lobbyUser.h">
+      <Filter>contents\user</Filter>
+    </ClInclude>
+    <ClInclude Include="MLN_Utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lobbyUserManager.h">
+      <Filter>contents\user</Filter>
+    </ClInclude>
+    <ClInclude Include="nh_lobby.h">
+      <Filter>net_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\[include]\gameDef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="DBStructs.h">
+      <Filter>db</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\[output]\chase_lobby\chase_lobby.xml">
+      <Filter>_config</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
