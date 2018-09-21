@@ -4,35 +4,6 @@
 #define _WIN32_WINNT 0x0600
 #endif
 
-#include <boost/asio.hpp>
-#include <boost/atomic.hpp>
-#include <boost/bind.hpp>
-#include <boost/chrono.hpp>
-#include <boost/enable_shared_from_this.hpp>
-#include <boost/format.hpp>
-#include <boost/function.hpp>
-#include <boost/log/attributes.hpp>
-#include <boost/log/core.hpp>
-#include <boost/log/trivial.hpp>
-#include <boost/log/utility/setup/file.hpp>
-#include <boost/pool/pool.hpp>
-#include <boost/shared_ptr.hpp>
-#include <boost/thread.hpp>
-#include <boost/thread/shared_mutex.hpp>
-#include <boost/unordered_map.hpp>
-
-#include <array>
-#include <iostream>
-#include <memory>
-#include <mutex>
-#include <random>
-#include <stdint.h>
-#include <string>
-#include <tchar.h>
-#include <vector>
-
-#include <MLN/Net/net/macros.h>
-#include <MLN/Net/net/logger.h>
 #include <MLN/Net/includeLib.h>
 #include <OpenLib/jsoncpp/includeLib.h>
 #include <OpenLib/zlib/includeLib.h>
